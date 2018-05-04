@@ -8,4 +8,4 @@ import { Server } from 'http';
 
 declare function stoppable(server: Server, grace?: number): Server;
 
-export = stoppable;
+export default stoppable;
